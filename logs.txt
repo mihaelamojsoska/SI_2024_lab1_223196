@@ -1,0 +1,96 @@
+->master branch
+commit d156a9b024f87d17e79beb7925a8d7fa7af09dcf (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:39:15 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit c3094cbd7dd169c977b1dfb72c91b22d7c627007
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:37:17 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 70fd7f484ccbf209cf67be22dbb1d146a4bc7d30 (origin/bug1, bug1)
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:38:30 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 4f9bc3f3e7a4e39c57a6eae441fd4aebcf9280f7
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:36:41 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit d730bd4e906407c275d1852e888c3ada9e95d88c
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:35:22 2024 +0200
+
+    Add starter code
+
+commit 20af8ce6d942f0a3d21e82a6066a227cfad09b99
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:34:19 2024 +0200
+
+    Initial commit
+->bug1 branch
+commit 70fd7f484ccbf209cf67be22dbb1d146a4bc7d30 (HEAD -> bug1, origin/bug1)
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:38:30 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 4f9bc3f3e7a4e39c57a6eae441fd4aebcf9280f7
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:36:41 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit d730bd4e906407c275d1852e888c3ada9e95d88c
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:35:22 2024 +0200
+
+    Add starter code
+
+commit 20af8ce6d942f0a3d21e82a6066a227cfad09b99
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:34:19 2024 +0200
+
+    Initial commit
+->bug2 branch
+commit d156a9b024f87d17e79beb7925a8d7fa7af09dcf (HEAD -> bug2, origin/master, origin/bug2, master)
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:39:15 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit c3094cbd7dd169c977b1dfb72c91b22d7c627007
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:37:17 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 70fd7f484ccbf209cf67be22dbb1d146a4bc7d30 (origin/bug1, bug1)
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:38:30 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 4f9bc3f3e7a4e39c57a6eae441fd4aebcf9280f7
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:36:41 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit d730bd4e906407c275d1852e888c3ada9e95d88c
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:35:22 2024 +0200
+
+    Add starter code
+
+commit 20af8ce6d942f0a3d21e82a6066a227cfad09b99
+Author: Mihaela Mojsoska <mojsoskamihaela@gmail.com>
+Date:   Sun Apr 14 00:34:19 2024 +0200
+
+    Initial commit

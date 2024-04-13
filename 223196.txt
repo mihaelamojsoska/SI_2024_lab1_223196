@@ -1,0 +1,85 @@
+Mihaela Mojsoska 
+3. mkdir SI_2024_lab1_223196
+cd SI_2024_lab1_223196
+4. git init
+git remote add origin https://github.com/mihaelamojsoska/SI_2024_lab1_223196.git
+git remote -v   
+5. git push -u origin master
+6. echo Mihaela Mojsoska 223196 > README.md
+git add README.md
+git commit -m "Initial commit"
+7. git add SILab1_1.java SILab1_2.java SILab1Main.java
+git commit -m "Add starter code"
+8. git push -u origin master
+9. git checkout -b bug1
+git checkout -b bug2
+10. git checkout bug1
+11. notepad SILab1_1.java
+git add SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+12. git checkout bug2
+13. notepad SILab1_2.java
+git add SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom"
+14. git checkout bug1
+15. notepad SILab1Main.java
+git add SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+16. git checkout bug2
+17. notepad SILab1Main.java
+git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class"
+18. git push -u origin bug1
+git push -u origin bug2
+19. git checkout master 
+20. -нема конфликт, стратегија Fast-forward
+git merge bug1
+Updating d730bd4..70fd7f4
+Fast-forward
+ SILab1Main.java | 1 +
+ SILab1_1.java   | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+21. git push -u origin master
+22. git checkout bug2 
+23.  -има конфликт, конфликтот го решив со тоа го отворив SILab1Main.java и ги избришав сите непотребни делови оставајќи ја само втората промена System.out.println(SILab1_2.makeBigStringFrom(list));   
+    git rebase master 
+Auto-merging SILab1Main.java
+CONFLICT (content): Merge conflict in SILab1Main.java
+error: could not apply 74a720c... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply 74a720c... Call method makeBigStringFrom in main class
+   notepad SILab1Main.java (brisi se osven prvata promena)
+git add SILab1Main.java
+git rebase --continue
+[detached HEAD d156a9b] Call method makeBigStringFrom in main class
+1 file changed, 1 insertion(+), 1 deletion(-)
+Successfully rebased and updated refs/heads/bug2.
+24. git checkout master
+25. git merge bug2
+-нема конфликт, стратегија Fast-forward
+Updating 70fd7f4..d156a9b
+Fast-forward
+ SILab1Main.java | 2 +-
+ SILab1_2.java   | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+26. git push -u origin master
+27. git push --force origin bug2
+28. git log master
+git log bug1
+git log bug2
+29. git checkout master
+git add logs.txt 223196.txt
+git commit -m "Final commit"
+git push -u origin master
+
+
+
+
+
+
+
+
+
